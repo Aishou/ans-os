@@ -1,23 +1,25 @@
 <div align="center">
 
-# 🏰 ANS
+# 🏰 ANS — The AIN Nexus Standard
 
-### *The AINCRAD Nexus Standard*
+### *Hardened kernel · Zero-copy by default · Thermal budgets as currency*
 
 <br>
 
-[![Status](https://img.shields.io/badge/Status-Closed%20Alpha-orange?style=for-the-badge)](https://murmur.fyi)
+[![Status](https://img.shields.io/badge/Status-Closed%20Alpha%200.1.1-orange?style=for-the-badge)](https://murmur.fyi)
+[![Alpha Ready](https://img.shields.io/badge/Alpha%20Readiness-96%2F100-brightgreen?style=for-the-badge)](https://murmur.fyi)
 [![License](https://img.shields.io/badge/License-AGL--AW%20v2.0-blue?style=for-the-badge)](#%EF%B8%8F-license--lizenz)
 [![Transition](https://img.shields.io/badge/Open%20Source-2040-green?style=for-the-badge)](#%EF%B8%8F-license--lizenz)
 
 <br>
 
-**Copyleft microkernel · Zero-copy by default · Thermal budgets as currency**
+> **⚠️ PRE-RELEASE REPOSITORY** — This repo will be hard-reset on public launch.
+> The canonical monorepo is private during closed alpha.
 
 <br>
 
-*ANS is the public face of the AINCRAD architecture: a hardened kernel,*
-*deterministic scheduling, and a privacy-first companion stack that never phones home.*
+**ANS is the public face of the AIN architecture:**
+*a hardened microkernel, deterministic scheduling, and a privacy-first companion stack that never phones home.*
 
 *Closed alpha today. Apache 2.0 in 2040.*
 *Because this needs to be built right before it is built open.*
@@ -27,6 +29,20 @@
 ---
 
 </div>
+
+<br>
+
+## ⚡ The Three Pillars
+
+| Component | Role | Domain | Thermal Cost |
+|-----------|------|--------|--------------|
+| **Mux** | The Body | Hardened kernel, deterministic scheduling | ~5-20 µJ/op |
+| **Murmur** | The Soul | AI-native UI, emotional UX | ~50-200 µJ/op |
+| **ANS** | The Nervous System | Shared ABI, SwarmTick sync | ~1-10 µJ/op |
+
+<br>
+
+---
 
 <br>
 
@@ -77,11 +93,67 @@ Ember Core is the Guild Master's **Lebenswerk** (life's work) — shared with hu
 
 <br>
 
+## 🏗️ Architecture: The 7 Floors of AIN
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ F06: REALITY     │ Murmur │ Ember UI, Slipstream, Personas              │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ F05: TRANSACTIONS│ Bridge │ TrustForge, StellarVault, MuxELF            │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ F04: REFINERS    │ Bridge │ MIRE AI, GLINT Search, Sched-Opt            │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ F03: POLICIES    │ Bridge │ RIPPLE Policy, Capability Gating            │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ F02: SENSORS     │ Mux    │ Driver I/O (HIO), HearthVoice, Dialects     │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ F01: FABRIC      │ Mux    │ AKI Async Kernel, Signal Bus                │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ F00: KERNEL      │ Mux    │ Hard-Slice Scheduler, HAL                   │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+<br>
+
+### Key Innovations (2026 Status)
+
+| Innovation | Status | Description |
+|------------|--------|-------------|
+| **Zero-Copy Everywhere (ZCH)** | ✅ Production | 10-100× speedup via handle-based memory |
+| **Thermal-as-Currency** | ✅ Production | µJ-per-op accounting, prepay gates |
+| **MuxELF 4.1.1** | ✅ 16 architectures | 6-axis capability matrix (S/T/A/P/X/Z) |
+| **Nova Wave VMs** | ✅ Wave→Particle | Intent→reality in <1ms (Kuramoto sync) |
+| **S.O.L.I.T.O.N** | ✅ Win/Linux/Retro | 14-axis compatibility layer |
+| **Guild BBS** | ✅ Usenet newsgroups | Thermal-priced community |
+| **Dual-Axis Security** | ✅ Ring + Zone | Hardware+policy enforcement |
+| **TrustForge E2EE** | ✅ User-owned keys | Zero company access |
+
+<br>
+
+---
+
+<br>
+
+## 🔐 YOUR KEYS, YOUR DATA — NOT OURS
+
+**AIN's end-to-end encryption rigor: YOU own your keys, NOT the company.**
+
+- ✅ **User-Owned Keys** — TrustForge keys NEVER leave your device
+- ✅ **Zero Company Access** — We cannot decrypt your data, even if compelled
+- ✅ **Local-First Storage** — Everything encrypted at rest with YOUR keys
+- ✅ **Thermal PoW Identity** — Ed25519 keys bound to hardware, not corporate servers
+
+<br>
+
+---
+
+<br>
+
 ## ⚖️ License / Lizenz
 
 <div align="center">
 
-*ANS is licensed under the* ***AINCRAD Gildenlizenz (AGL-AW) v2.0***
+*ANS is licensed under the* ***AIN Gildenlizenz (AGL-AW) v2.0***
 *— "Anti-War Network Copyleft"*
 
 **This is NOT standard open source.**
@@ -141,16 +213,6 @@ Ember Core is the Guild Master's **Lebenswerk** (life's work) — shared with hu
 
 <br>
 
-<div align="center">
-
-> *"Alle Menschen brauchen ein Zuhause."*
->
-> — Every human being needs a home.
-
-</div>
-
-<br>
-
 ---
 
 <br>
@@ -182,6 +244,25 @@ Ember Core is the Guild Master's **Lebenswerk** (life's work) — shared with hu
 
 <br>
 
+## 🎯 Alpha 0.1.1 Status (January 2026)
+
+**Alpha Readiness Score: 96/100**
+
+| System | Status |
+|--------|--------|
+| 🔥 Ember Bonding Protocol | ✅ 5-phase emotional bonding |
+| 🌌 Milkyway Page | ✅ Gemini-inspired chat + GPU backgrounds |
+| 💥 MurmurSplat | ✅ Enterprise crash reporting |
+| ⚡ Selftest Framework | ✅ Runtime diagnostics |
+| 👤 Profile Manager | ✅ UUID-based with PIN auth (Argon2) |
+| 🎨 Theme System | ✅ Ohana (Lilo & Stitch), Neonya, Classic |
+
+<br>
+
+---
+
+<br>
+
 <div align="center">
 
 ### 🌐 Learn More
@@ -189,7 +270,18 @@ Ember Core is the Guild Master's **Lebenswerk** (life's work) — shared with hu
 <br>
 
 [![Website](https://img.shields.io/badge/🔗-murmur.fyi-black?style=for-the-badge)](https://murmur.fyi)
+[![Docs](https://img.shields.io/badge/📚-docs.murmur.fyi-black?style=for-the-badge)](https://docs.murmur.fyi)
 [![Email](https://img.shields.io/badge/📧-hello%40murmur.fyi-black?style=for-the-badge)](mailto:hello@murmur.fyi)
+
+<br>
+
+---
+
+<br>
+
+> *"Synchronize the swarm. Price the heat. Spill only the cold."*
+>
+> *"Alle Menschen brauchen ein Zuhause."* — Every human being needs a home.
 
 <br>
 
@@ -199,8 +291,11 @@ Ember Core is the Guild Master's **Lebenswerk** (life's work) — shared with hu
 
 **© 2024-2026 neurona.design**
 
-*This preview repository will hard-reset on public release.*
-*The code shown here is for demonstration purposes only.*
+**⚠️ PRE-RELEASE REPOSITORY** — This repo will be hard-reset on public launch.  
+The canonical monorepo is private during closed alpha.  
+Code shown here is for demonstration purposes only.
+
+**Breaking Change (2026-01):** Canonical name `AINCRAD` → `AIN`
 
 </sub>
 
