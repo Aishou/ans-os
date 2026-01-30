@@ -527,38 +527,29 @@ Ember Core is the Guild Master's **Lebenswerk** (life's work) — shared with hu
 
 ---
 
-<sub>
+<br>
 
-**© 2024-2026 neurona.design — Fabian Ewers**  
+**© 2024-2026 neurona.design — Fabian Ewers**
+
 **Licensed under AGL-AW v2.0** — Anti-War Network Copyleft
 
-</sub>
-
 <br>
 
-<sub>
+⚠️ **PRE-RELEASE REPOSITORY**
 
-⚠️ **PRE-RELEASE REPOSITORY** — This repo will be hard-reset on public launch.  
+This repo will be hard-reset on public launch.
 The canonical monorepo is private during closed alpha.
 
-</sub>
-
 <br>
 
-<sub>
+**Core Concepts (January 2026):**
 
-**Core Concepts (January 2026):**  
-Wandelbar Architecture · Zero-Copy Handles (ZCH) · Thermal-as-Currency  
+Wandelbar Architecture · Zero-Copy Handles (ZCH) · Thermal-as-Currency
+
 MuxELF 6-Axis Binary Format · Kuramoto Synchronization · TrustForge E2EE
 
-</sub>
-
 <br>
 
-<sub>
-
 **Breaking Change (2026-01):** Canonical name `AINCRAD` → `AIN`
-
-</sub>
 
 </div>
