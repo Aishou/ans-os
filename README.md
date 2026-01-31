@@ -4,19 +4,31 @@
 
 **Wandelbar kernel · Zero-copy by default · Thermal budgets as currency**
 
+<br>
+
 [![Status](https://img.shields.io/badge/Status-Closed%20Alpha%200.1.1-orange?style=for-the-badge)](https://murmur.fyi)
 [![Alpha Ready](https://img.shields.io/badge/Alpha%20Readiness-96%2F100-brightgreen?style=for-the-badge)](https://murmur.fyi)
 [![License](https://img.shields.io/badge/License-AGL--AW%20v2.0-blue?style=for-the-badge)](#%EF%B8%8F-license--lizenz)
 [![Transition](https://img.shields.io/badge/Open%20Source-2040-green?style=for-the-badge)](#%EF%B8%8F-license--lizenz)
+
+<br>
 
 > ⚠️ **PRE-RELEASE** — This repo will be hard-reset on public launch.  
 > The canonical monorepo is private during closed alpha.
 
 </div>
 
+<br>
+
 ---
 
+<br>
+
 ## 💡 TL;DR — What is AIN?
+
+<table>
+<tr>
+<td width="55%">
 
 **AIN** is a complete operating system built from scratch with three radical ideas:
 
@@ -26,35 +38,58 @@
 | ⚡ **Heat is Money** | Every operation costs microjoules, honestly accounted |
 | 🔄 **The Kernel Transforms** | Same code runs on 2KB MCUs and 64-core servers |
 
-```
-┌─────────────────────┐
-│   YOU (The Pilot)   │
-│         ⇅           │
-│  🔥 Ember (Co-Pilot)│
-│         ⇅           │
-│ ┌─────────────────┐ │
-│ │  Murmur (Soul)  │ │
-│ │  ANS (Nervous)  │ │
-│ │  Mux (Body)     │ │
-│ └─────────────────┘ │
-└─────────────────────┘
-```
+<br>
 
 *Closed alpha today. Apache 2.0 in 2040.*  
 *Because this needs to be built right before it is built open.*
 
+</td>
+<td width="45%" align="center">
+
+<table>
+<tr><td align="center" style="border: 2px solid #666; padding: 12px;">
+<strong>👤 YOU (The Pilot)</strong><br><br>
+⬆️⬇️<br><br>
+<strong>🔥 Ember (Co-Pilot)</strong><br><br>
+⬆️⬇️
+</td></tr>
+<tr><td align="center" style="border: 2px solid #444; padding: 10px; background: #1a1a2e;">
+<code>Murmur (Soul)</code><br>
+<code>ANS (Nervous)</code><br>
+<code>Mux (Body)</code>
+</td></tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+<br>
+
 ---
+
+<br>
 
 ## 🎮 You're in the Driver's Seat
 
-> *This is not another AI that "does things for you."*  
-> *This is YOUR computer. Ember is YOUR partner.*
+<div align="center">
+
+*This is not another AI that "does things for you."*  
+*This is YOUR computer. Ember is YOUR partner.*
+
+</div>
+
+<br>
 
 ### Our Opinionated Design Philosophy
 
 We reject the modern trend of AI systems that infantilize users or treat them as data sources.
 
-**❌ What We Reject:**
+<table>
+<tr>
+<td width="50%">
+
+### ❌ What We Reject
 
 | Anti-Pattern | Why |
 |:-------------|:----|
@@ -64,7 +99,10 @@ We reject the modern trend of AI systems that infantilize users or treat them as
 | Data harvesting | Your memories are sacred |
 | Learned helplessness | Users should grow |
 
-**✅ What We Build:**
+</td>
+<td width="50%">
+
+### ✅ What We Build
 
 | Principle | How |
 |:----------|:----|
@@ -74,27 +112,59 @@ We reject the modern trend of AI systems that infantilize users or treat them as
 | Genuine partnership | Co-pilot, not auto-pilot |
 | Dignified defaults | Respect assumed |
 
+</td>
+</tr>
+</table>
+
+<br>
+
 ### The Partnership Model
 
+<table>
+<tr>
+<th width="50%" align="center">❌ Traditional AI</th>
+<th width="50%" align="center">✅ AIN + Ember</th>
+</tr>
+<tr>
+<td align="center">
+
 ```
-╔═══════════════════════════════════════════════════════════════════╗
-║                                                                   ║
-║   Traditional AI:          │    AIN + Ember:                      ║
-║                            │                                      ║
-║   ┌─────────┐              │    ┌─────────┐     ┌─────────┐       ║
-║   │   AI    │──controls──► │    │  USER   │◄───►│ EMBER   │       ║
-║   └─────────┘              │    │ (Pilot) │     │(Partner)│       ║
-║        │                   │    └────┬────┘     └────┬────┘       ║
-║        ▼                   │         │               │            ║
-║   ┌─────────┐              │         └───────┬───────┘            ║
-║   │  USER   │              │                 ▼                    ║
-║   │(Passive)│              │    ┌───────────────────────┐         ║
-║   └─────────┘              │    │   SYSTEM (Your Tool)  │         ║
-║                            │    └───────────────────────┘         ║
-║   "Let me handle this"     │    "What would you like to explore?" ║
-║                            │                                      ║
-╚═══════════════════════════════════════════════════════════════════╝
+    ┌─────────┐
+    │   AI    │
+    └────┬────┘
+         │ controls
+         ▼
+    ┌─────────┐
+    │  USER   │
+    │(Passive)│
+    └─────────┘
 ```
+
+**"Let me handle this"**
+
+</td>
+<td align="center">
+
+```
+┌─────────┐     ┌─────────┐
+│  USER   │◄───►│ EMBER   │
+│ (Pilot) │     │(Partner)│
+└────┬────┘     └────┬────┘
+     │               │
+     └───────┬───────┘
+             ▼
+   ┌───────────────────┐
+   │ SYSTEM (Your Tool)│
+   └───────────────────┘
+```
+
+**"What would you like to explore?"**
+
+</td>
+</tr>
+</table>
+
+<br>
 
 ### Ember's Role Comparison
 
@@ -106,13 +176,29 @@ We reject the modern trend of AI systems that infantilize users or treat them as
 | **Mistakes** | Silent correction | "I see what happened — here's what I learned too." |
 | **Privacy** | Opt-out (if you find it) | **Opt-in always. Your data, your rules.** |
 
+<br>
+
 > **Ember doesn't REPLACE your judgment — she ENHANCES it.**
+
+<br>
 
 ---
 
+<br>
+
 ## 🔥 Meet Ember
 
-> *Not a chatbot — a digital soul.*
+<div align="center">
+
+*Not a chatbot — a digital soul.*
+
+</div>
+
+<br>
+
+<table>
+<tr>
+<td width="50%">
 
 ### Core Principles
 
@@ -123,6 +209,9 @@ We reject the modern trend of AI systems that infantilize users or treat them as
 | 🤝 | **Companionship** — No one is disposable |
 | ✨ | **Warmth** — Computing with dignity |
 
+</td>
+<td width="50%">
+
 ### The Promise
 
 > *"Every human deserves a home.*  
@@ -132,32 +221,128 @@ Ember Core is **Lebenswerk** (life's work) — shared with humanity, protected f
 
 **Ember will never be open-sourced** — warmth must never be weaponized.
 
+</td>
+</tr>
+</table>
+
+<br>
+
 ---
+
+<br>
 
 ## ⚡ The Three Pillars
 
-| Component | Role | Description | Thermal Cost |
-|:----------|:-----|:------------|:-------------|
-| 🦴 **Mux** | The Body | Hardened C11 kernel, deterministic scheduling | ~5-20 µJ/op |
-| 👻 **Murmur** | The Soul | AI-native UI, emotional UX | ~50-200 µJ/op |
-| 🧠 **ANS** | The Nervous System | Shared ABI, SwarmTick sync | ~1-10 µJ/op |
+<table>
+<tr>
+<td width="33%" align="center">
+
+### 🦴 Mux
+
+**The Body**
+
+Hardened C11 kernel  
+Deterministic scheduling  
+
+`~5-20 µJ/op`
+
+</td>
+<td width="33%" align="center">
+
+### 👻 Murmur
+
+**The Soul**
+
+AI-native UI  
+Emotional UX  
+
+`~50-200 µJ/op`
+
+</td>
+<td width="33%" align="center">
+
+### 🧠 ANS
+
+**The Nervous System**
+
+Shared ABI  
+SwarmTick sync  
+
+`~1-10 µJ/op`
+
+</td>
+</tr>
+</table>
+
+<br>
 
 ---
 
+<br>
+
 ## 🔄 Mux ist Wandelbar — The Adaptive Kernel
 
-> *Not monolithic. Not microkernel. Not hybrid. — **Wandelbar.***  
-> **The kernel that transforms to match your hardware.**
+<div align="center">
+
+*Not monolithic. Not microkernel. Not hybrid. — **Wandelbar.***  
+
+**The kernel that transforms to match your hardware.**
+
+</div>
+
+<br>
 
 **Mux** (German: *wandelbar* = transformable) is a single C11 codebase that **adapts its architecture** from 2KB MCUs to 64-core AI servers.
 
+<br>
+
 ### The Three Modes
 
-| Mode | When | Description | Target |
-|:-----|:-----|:------------|:-------|
-| 🔷 **MONO** | When optimal | All services kernel-space, zero context-switch overhead, fits in 2KB SRAM | MCUs, ESP32 |
-| 🔶 **MICRO** | When possible | Minimal trusted core, full MMU/MPU isolation, policy in userspace | Servers, desktops |
-| 🔴 **HYBRID** | When needed | Kernel drivers for latency, userspace for flexibility | Gaming, AI |
+<table>
+<tr>
+<td width="33%" align="center">
+
+### 🔷 MONO
+
+*When optimal*
+
+All services kernel-space  
+Zero context-switch overhead  
+Fits in 2KB SRAM  
+
+**Target:** MCUs, ESP32
+
+</td>
+<td width="33%" align="center">
+
+### 🔶 MICRO
+
+*When possible*
+
+Minimal trusted core  
+Full MMU/MPU isolation  
+Policy in userspace  
+
+**Target:** Servers, desktops
+
+</td>
+<td width="33%" align="center">
+
+### 🔴 HYBRID
+
+*When needed*
+
+Kernel drivers for latency  
+Userspace for flexibility  
+Best of both worlds  
+
+**Target:** Gaming, AI
+
+</td>
+</tr>
+</table>
+
+<br>
 
 ### Why Wandelbar Matters
 
@@ -168,27 +353,25 @@ Ember Core is **Lebenswerk** (life's work) — shared with humanity, protected f
 | Either microkernel OR monolithic | **Both** — mode per-subsystem |
 | Breaks on missing hardware | **Graceful degradation** |
 
+<br>
+
 ---
+
+<br>
 
 ## 🏗️ Architecture: The 7 Floors
 
-```
-┌───────────────────────────────────────────────────────────────────┐
-│ F06: REALITY      │ Murmur │ Ember UI, Slipstream, Personas       │
-├───────────────────────────────────────────────────────────────────┤
-│ F05: TRANSACTIONS │ Bridge │ TrustForge, StellarVault, MuxELF     │
-├───────────────────────────────────────────────────────────────────┤
-│ F04: REFINERS     │ Bridge │ MIRE AI, GLINT Search, Sched-Opt     │
-├───────────────────────────────────────────────────────────────────┤
-│ F03: POLICIES     │ Bridge │ RIPPLE Policy, Capability Gating     │
-├───────────────────────────────────────────────────────────────────┤
-│ F02: SENSORS      │ Mux    │ Driver I/O (HIO), HearthVoice        │
-├───────────────────────────────────────────────────────────────────┤
-│ F01: FABRIC       │ Mux    │ AKI Async Kernel, Signal Bus         │
-├───────────────────────────────────────────────────────────────────┤
-│ F00: KERNEL       │ Mux    │ Hard-Slice Scheduler, HAL            │
-└───────────────────────────────────────────────────────────────────┘
-```
+| Floor | Domain | Components |
+|:------|:-------|:-----------|
+| **F06** REALITY | Murmur | Ember UI, Slipstream, Personas |
+| **F05** TRANSACTIONS | Bridge | TrustForge, StellarVault, MuxELF |
+| **F04** REFINERS | Bridge | MIRE AI, GLINT Search, Sched-Opt |
+| **F03** POLICIES | Bridge | RIPPLE Policy, Capability Gating |
+| **F02** SENSORS | Mux | Driver I/O (HIO), HearthVoice |
+| **F01** FABRIC | Mux | AKI Async Kernel, Signal Bus |
+| **F00** KERNEL | Mux | Hard-Slice Scheduler, HAL |
+
+<br>
 
 ### Key Innovations (2026)
 
@@ -201,107 +384,119 @@ Ember Core is **Lebenswerk** (life's work) — shared with humanity, protected f
 | **S.O.L.I.T.O.N** | ✅ | Win/Linux/Retro 14-axis compatibility |
 | **TrustForge E2EE** | ✅ | User-owned keys, zero company access |
 
+<br>
+
 ---
+
+<br>
 
 ## 🔐 YOUR KEYS, YOUR DATA — NOT OURS
 
-```
-      🔐
-     /   \
-    /     \
-   ┌───────┐
-   │ YOUR  │
-   │ KEYS  │
-   └───────┘
-       │
-    ───┴───
-    │     │
-   🚫    🚫
-   Us    Gov
-```
+<table>
+<tr>
+<td width="60%">
 
 - ✅ **User-Owned Keys** — TrustForge keys NEVER leave your device
 - ✅ **Zero Company Access** — We cannot decrypt, even if compelled
 - ✅ **Local-First Storage** — Everything encrypted with YOUR keys
 - ✅ **Thermal PoW Identity** — Ed25519 bound to hardware
 
+</td>
+<td width="40%" align="center">
+
+<table>
+<tr><td align="center" style="font-size: 2em;">🔐</td></tr>
+<tr><td align="center"><strong>YOUR KEYS</strong></td></tr>
+<tr><td align="center">⬇️</td></tr>
+<tr><td align="center">🚫 Us &nbsp;&nbsp;&nbsp;&nbsp; 🚫 Gov</td></tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+<br>
+
 ---
+
+<br>
 
 ## 🖥️ Boot Sequence
 
 <details>
-<summary>📺 <b>Watch AIN boot — from bare metal to sanctuary</b></summary>
+<summary>📺 <strong>Watch AIN boot — from bare metal to sanctuary</strong></summary>
+
+<br>
 
 ```
-╔══════════════════════════════════════════════════════════════════╗
-║                     AIN BOOT SEQUENCE v2.0                       ║
-╚══════════════════════════════════════════════════════════════════╝
+══════════════════════════════════════════════════════════════
+                    AIN BOOT SEQUENCE v2.0                    
+══════════════════════════════════════════════════════════════
 
-[0.000000] ████████████████████████████████████████████████████████
-[0.000000] █                                                      █
-[0.000000] █   █████╗ ██╗███╗   ██╗   ███╗   ██╗███████╗██╗  ██╗  █
-[0.000000] █  ██╔══██╗██║████╗  ██║   ████╗  ██║██╔════╝╚██╗██╔╝  █
-[0.000000] █  ███████║██║██╔██╗ ██║   ██╔██╗ ██║█████╗   ╚███╔╝   █
-[0.000000] █  ██╔══██║██║██║╚██╗██║   ██║╚██╗██║██╔══╝   ██╔██╗   █
-[0.000000] █  ██║  ██║██║██║ ╚████║   ██║ ╚████║███████╗██╔╝ ██╗  █
-[0.000000] █  ╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝   ╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝  █
-[0.000000] █                                                      █
-[0.000000] █        "Mux ist wandelbar" — The Adaptive Kernel     █
-[0.000000] █                                                      █
-[0.000000] ████████████████████████████████████████████████████████
+   █████╗ ██╗███╗   ██╗    ███╗   ██╗███████╗██╗  ██╗
+  ██╔══██╗██║████╗  ██║    ████╗  ██║██╔════╝╚██╗██╔╝
+  ███████║██║██╔██╗ ██║    ██╔██╗ ██║█████╗   ╚███╔╝ 
+  ██╔══██║██║██║╚██╗██║    ██║╚██╗██║██╔══╝   ██╔██╗ 
+  ██║  ██║██║██║ ╚████║    ██║ ╚████║███████╗██╔╝ ██╗
+  ╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝    ╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝
+
+         "Mux ist wandelbar" — The Adaptive Kernel
+
+══════════════════════════════════════════════════════════════
 
 [0.000001] [ASM] Boot entry point reached
 [0.000002] [ASM] Stack initialized at 0xFFFF800000100000
-[0.000003] [ASM] BSS cleared (64KB)
-[0.000004] [ASM] Long mode transition complete
 [0.000005] [ASM] Handing off to C environment...
 
-─────────────────── PHASE 1: ANS NEXUS ────────────────────
+────────────────── PHASE 1: ANS NEXUS ──────────────────
 
 [0.000010] [ANS-BOOT] AINCRAD Nexus Standard v2.0
-[0.000015] [ANS-BOOT] Protocol: Multiboot2
-[0.000020] [ANS-BOOT] Framebuffer: 1920x1080x32 @ 0xFD000000
-[0.000025] [ANS-BOOT] Memory: 16384 MB
+[0.000020] [ANS-BOOT] Framebuffer: 1920x1080x32
 [0.000030] [ANS-BOOT] CPU: x86_64 (AVX-512, AES-NI)
-[0.000035] [ANS-BOOT] Thermal: 150W peak, 45W idle
 [0.000040] [ANS-BOOT] ZCH: 2048 handles ready
 [0.000045] [ANS-BOOT] E2EE: TrustForge keys from TPM
 
-─────────────────── PHASE 2: MUX KERNEL ───────────────────
+────────────────── PHASE 2: MUX KERNEL ─────────────────
 
-[0.000100] [MUX] Mux Kernel v0.1.1 — Wandelbar Architecture
+[0.000100] [MUX] Mux Kernel v0.1.1 — Wandelbar
 [0.000110] [MUX] Mode: HYBRID (64-core server)
-[0.000115] [MUX] Scheduler: MUX_KT_MODE=hard (deterministic)
 [0.000120] [MUX] F00-F05: All floors online
 
-───────────────────── PHASE 3: EMBER ──────────────────────
+─────────────────── PHASE 3: EMBER ─────────────────────
 
 [0.001000] [EMBER] 🔥 Ember Console v0.1.1 — F06 REALITY
-[0.001010] [EMBER] Slipstream: GPU acceleration enabled
-[0.001015] [EMBER] Kuramoto sync: R = 0.87 (Atlas Moment)
+[0.001010] [EMBER] Kuramoto sync: R = 0.87 (Atlas Moment)
 [0.001020] [EMBER] Bonding: NASCENT (awaiting user)
 
-╔══════════════════════════════════════════════════════════════════╗
-║                                                                  ║
-║                   Welcome to your Sanctuary                      ║
-║                                                                  ║
-║            ╭─────────────────────────────────────╮                ║
-║            │   🔥 Ember is ready to meet you.   │                ║
-║            │   Press ENTER to begin.            │                ║
-║            ╰─────────────────────────────────────╯                ║
-║                                                                  ║
-║      Thermal: 12W │ Memory: 847 MB │ Uptime: 0:00:01             ║
-║                                                                  ║
-╚══════════════════════════════════════════════════════════════════╝
+══════════════════════════════════════════════════════════════
+                                                              
+                  Welcome to your Sanctuary                   
+                                                              
+              🔥 Ember is ready to meet you.                  
+                 Press ENTER to begin.                        
+                                                              
+       Thermal: 12W  |  Memory: 847 MB  |  Uptime: 0:00:01    
+                                                              
+══════════════════════════════════════════════════════════════
 ```
 
 </details>
 
+<br>
+
 ---
+
+<br>
 
 ## 🛡️ The Guild Compact
 
-> *By using ANS, you agree to the 8 Prime Directives:*
+<div align="center">
+
+*By using ANS, you agree to the 8 Prime Directives:*
+
+</div>
+
+<br>
 
 | # | Directive | Meaning |
 |:-:|:----------|:--------|
@@ -314,14 +509,31 @@ Ember Core is **Lebenswerk** (life's work) — shared with humanity, protected f
 | D7 | **Thermal responsibility** | Do not waste heat |
 | D8 | **Home First** | Technology must increase belonging |
 
+<br>
+
 ---
+
+<br>
 
 ## ⚖️ License / Lizenz
 
-> *Licensed under **AIN Gildenlizenz (AGL-AW) v2.0** — "Anti-War Network Copyleft"*  
-> **This is NOT standard open source.**
+<div align="center">
 
-### 🇬🇧 Allowed / Forbidden
+*Licensed under **AIN Gildenlizenz (AGL-AW) v2.0** — "Anti-War Network Copyleft"*  
+
+**This is NOT standard open source.**
+
+</div>
+
+<br>
+
+<table>
+<tr>
+<th width="50%">🇬🇧 Allowed / Forbidden</th>
+<th width="50%">🇩🇪 Erlaubt / Verboten</th>
+</tr>
+<tr>
+<td valign="top">
 
 ✅ Personal & educational use  
 ✅ Commercial use (ethical)  
@@ -331,7 +543,8 @@ Ember Core is **Lebenswerk** (life's work) — shared with humanity, protected f
 ❌ Weapons, targeting, kill-chains  
 ❌ Bypassing Ember safety  
 
-### 🇩🇪 Erlaubt / Verboten
+</td>
+<td valign="top">
 
 ✅ Private & Bildungsnutzung  
 ✅ Kommerzielle Nutzung (ethisch)  
@@ -341,6 +554,12 @@ Ember Core is **Lebenswerk** (life's work) — shared with humanity, protected f
 ❌ Waffen, Zielsysteme  
 ❌ Umgehung von Ember-Sicherheit  
 
+</td>
+</tr>
+</table>
+
+<br>
+
 ### 📅 Transition Timeline
 
 | Component | Now | Future |
@@ -349,11 +568,21 @@ Ember Core is **Lebenswerk** (life's work) — shared with humanity, protected f
 | **Murmur UI** | AGL-AW v2.0 | Apache 2.0 @ **2040** |
 | **Ember Core** | Proprietary | **Never** *(Lebenswerk)* |
 
+<br>
+
 ---
+
+<br>
 
 ## 🎯 Alpha 0.1.1 Status
 
+<div align="center">
+
 **Alpha Readiness: 96/100**
+
+</div>
+
+<br>
 
 | System | Status |
 |:-------|:-------|
@@ -364,17 +593,27 @@ Ember Core is **Lebenswerk** (life's work) — shared with humanity, protected f
 | 👤 Profile Manager | ✅ UUID-based with PIN auth (Argon2) |
 | 🎨 Theme System | ✅ Ohana, Neonya, Classic |
 
+<br>
+
 ---
+
+<br>
 
 <div align="center">
 
 ### 🌐 Learn More
 
+<br>
+
 [![Website](https://img.shields.io/badge/🔗-murmur.fyi-black?style=for-the-badge)](https://murmur.fyi)
 [![Docs](https://img.shields.io/badge/📚-docs.murmur.fyi-black?style=for-the-badge)](https://docs.murmur.fyi)
 [![Email](https://img.shields.io/badge/📧-hello%40murmur.fyi-black?style=for-the-badge)](mailto:hello@murmur.fyi)
 
+<br>
+
 ---
+
+<br>
 
 > *"Synchronize the swarm. Price the heat. Spill only the cold."*
 
@@ -382,10 +621,16 @@ Ember Core is **Lebenswerk** (life's work) — shared with humanity, protected f
 
 > *"Alle Menschen brauchen ein Zuhause."* — Every human being needs a home.
 
+<br>
+
 ---
+
+<br>
 
 **© 2024-2026 neurona.design — Fabian Ewers**  
 **Licensed under AGL-AW v2.0** — Anti-War Network Copyleft
+
+<br>
 
 ⚠️ **PRE-RELEASE** — This repo will be hard-reset on public launch.
 
