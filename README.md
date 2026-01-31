@@ -28,6 +28,62 @@
 
 ---
 
+### 📖 About AIN (7 Languages)
+
+<table>
+<tr>
+<td>
+
+🇬🇧 **AIN** is an AI-native OS featuring the **Mux** adaptive C11 kernel, switching between Mono, Micro, and Hybrid modes at runtime. It implements ANS Zero-Copy Handles for 100× efficiency, using microjoule thermal budgets as a core system currency. **Ember** serves as a human-centric co-pilot, enhancing pilot agency within a unified codebase scaling from 2KB MCUs to 64-core AI servers. **TrustForge** ensures local-first, hardware-bound privacy where the user retains absolute keys and data sovereignty.
+
+</td>
+</tr>
+<tr>
+<td>
+
+🇩🇪 **AIN** ist ein KI-natives OS mit dem adaptiven C11-Kernel **Mux**, der zur Laufzeit zwischen Mono-, Micro- und Hybrid-Architekturen wechselt. Das System nutzt ANS Zero-Copy-Handles für maximale Effizienz und Mikrojoule-Wärmebudgets als interne Systemwährung. Die KI-Partnerin **Ember** fungiert als Co-Pilot zur Stärkung der Nutzerautonomie in einer Codebasis, die von 2KB-Chips bis zu 64-Kern-Servern skaliert. **TrustForge** garantiert hardwaregebundene Privatsphäre, bei der Schlüssel und Datenhoheit ausschließlich beim Nutzer verbleiben.
+
+</td>
+</tr>
+<tr>
+<td>
+
+🇫🇷 **AIN** est un OS natif-IA doté du noyau C11 adaptatif **Mux**, basculant dynamiquement entre les modes Mono, Micro et Hybride. Il exploite les handles ANS Zero-Copy pour une efficacité décuplée et utilise des budgets thermiques en microjoules comme monnaie système. Le co-pilote **Ember** renforce l'autonomie humaine au sein d'une base de code unique, scalable des MCU de 2Ko aux serveurs IA de 64 cœurs. **TrustForge** assure une confidentialité totale liée au matériel, où l'utilisateur conserve la souveraineté absolue sur ses clés.
+
+</td>
+</tr>
+<tr>
+<td>
+
+🇨🇳 **AIN** 是一款 AI 原生操作系统，采用 **Mux** 自适应 C11 内核，可在运行时动态切换单体、微内核与混合架构。通过 ANS 零拷贝句柄实现百倍效能提升，并将微焦耳级热预算作为系统核心结算货币。**Ember** 作为以人为本的副驾增强用户决策权，统一代码库支持从 2KB 微控制器到 64 核服务器的无缝缩放。**TrustForge** 确保硬件绑定的本地化隐私，用户拥有绝对的密钥与数据主权。
+
+</td>
+</tr>
+<tr>
+<td>
+
+🇹🇼 **AIN** 是一款 AI 原生作業系統，採用 **Mux** 自適應 C11 內核，可在執行時動態切換單體、微核心與混合架構。透過 ANS 零拷貝控制代碼實現百倍效能提升，並將微焦耳級熱預算作為系統核心結算貨幣。**Ember** 作為以人為本的副駕增強用戶決策權，統一代碼庫支援從 2KB 微控制器到 64 核伺服器的無縫縮放。**TrustForge** 確保硬體綁定的在地化隱私，用戶擁有絕對的金鑰與數據主權。
+
+</td>
+</tr>
+<tr>
+<td>
+
+🇯🇵 **AIN** はAIネイティブなOSで、実行時にMono/Micro/Hybridを切り替える適応型C11カーネル「**Mux**」を搭載しています。ANSゼロコピー・ハンドルにより効率を極限化し、マイクロジュール単位の熱予算をシステム通貨として実装しています。副操縦士「**Ember**」は人間の主体性を強化し、2KBのMCUから64コアのAIサーバーまでを単一コードで統合します。**TrustForge** により、ユーザーが鍵とデータの主権を握るハードウェア境界のプライバシーを保証します。
+
+</td>
+</tr>
+<tr>
+<td>
+
+🇪🇸 **AIN** es un SO nativo de IA con el núcleo C11 adaptativo **Mux**, capaz de conmutar entre arquitecturas Mono, Micro e Híbrida en tiempo real. Implementa handles ANS Zero-Copy para una eficiencia masiva, utilizando presupuestos térmicos de microjulios como moneda del sistema. **Ember** actúa como copiloto centrado en el humano, escalando desde MCUs de 2KB hasta servidores de 64 núcleos con una base de código unificada. **TrustForge** asegura privacidad vinculada al hardware, donde el usuario retiene la soberanía total de sus claves y datos.
+
+</td>
+</tr>
+</table>
+
+---
+
 </div>
 
 <br>
