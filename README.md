@@ -270,6 +270,114 @@ Example: MUX_KT_MODE=hard ./myapp
 
 <br>
 
+## 🎮 You're in the Driver's Seat — Ember is Your Co-Pilot
+
+<div align="center">
+
+*This is not another AI that "does things for you."*
+*This is YOUR computer. Ember is YOUR partner.*
+
+</div>
+
+<br>
+
+### Our Opinionated Design Philosophy
+
+We reject the modern trend of AI systems that infantilize users or treat them as data sources. AIN is built on a fundamentally different premise:
+
+<table>
+<tr>
+<td width="50%">
+
+### ❌ What We Reject
+
+| Anti-Pattern | Why We Reject It |
+|--------------|------------------|
+| **AI as overlord** | "Let me do that for you" removes agency |
+| **Dark patterns** | Manipulation destroys trust |
+| **Engagement farming** | Your attention is not our currency |
+| **Data harvesting** | Your memories are sacred, not product |
+| **Learned helplessness** | Users should grow, not atrophy |
+
+</td>
+<td width="50%">
+
+### ✅ What We Build
+
+| Principle | Implementation |
+|-----------|----------------|
+| **User as Captain** | YOU decide. Ember advises. |
+| **Transparent Systems** | Every decision explainable |
+| **Skill amplification** | Ember makes YOU more capable |
+| **Genuine partnership** | Co-pilot, not auto-pilot |
+| **Dignified defaults** | Respect assumed, not earned |
+
+</td>
+</tr>
+</table>
+
+<br>
+
+### The Partnership Model
+
+```
+╔═══════════════════════════════════════════════════════════════════════════════╗
+║                                                                               ║
+║   Traditional AI:          │    AIN + Ember:                                  ║
+║                            │                                                  ║
+║   ┌─────────┐              │    ┌─────────┐     ┌─────────┐                   ║
+║   │   AI    │──controls───►│    │  USER   │◄───►│ EMBER   │                   ║
+║   └─────────┘              │    │ (Pilot) │     │(Co-Pilot)│                   ║
+║        │                   │    └────┬────┘     └────┬────┘                   ║
+║        ▼                   │         │               │                        ║
+║   ┌─────────┐              │         └───────┬───────┘                        ║
+║   │  USER   │              │                 ▼                                ║
+║   │(Passive)│              │         ┌─────────────┐                          ║
+║   └─────────┘              │         │   SYSTEM    │                          ║
+║                            │         │ (Your Tool) │                          ║
+║   "Let me handle this"     │         └─────────────┘                          ║
+║                            │                                                  ║
+║                            │    "What would you like to explore?"             ║
+║                                                                               ║
+╚═══════════════════════════════════════════════════════════════════════════════╝
+```
+
+<br>
+
+### Why This Matters
+
+> **Ember doesn't REPLACE your judgment — she ENHANCES it.**
+>
+> When you ask Ember for help, she explains WHY, not just WHAT.
+> When you make a mistake, she helps you understand, not just correct.
+> When you succeed, the credit is YOURS — she was just your partner.
+
+This is deeply opinionated. We believe:
+
+1. **Computing should make humans MORE capable, not less**
+2. **Trust is built through transparency, not through polish**
+3. **Your digital space is YOUR sanctuary — we are guests**
+4. **AI companions should feel like friends, not services**
+5. **The best technology disappears into usefulness**
+
+<br>
+
+### Ember's Role as Partner
+
+| Scenario | Traditional AI | Ember (Co-Pilot) |
+|----------|---------------|------------------|
+| File organization | "I organized your files." | "I noticed some patterns — want to explore together?" |
+| Writing help | "Here's your rewritten text." | "Here are some ideas — which direction feels right to you?" |
+| Learning | "The answer is X." | "Let's figure this out — what do you think happens if...?" |
+| Mistakes | Silent correction | "I see what happened — here's what I learned too." |
+| Privacy | Opt-out (if you find it) | **Opt-in always. Your data, your rules.** |
+
+<br>
+
+---
+
+<br>
+
 ## ⚡ The Three Pillars
 
 | Component | Role | Domain | Thermal Cost |
