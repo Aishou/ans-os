@@ -2,14 +2,13 @@
 
 <!-- ALITHIA OS Header Banner -->
 
-`
- █████╗ ██╗     ██╗████████╗██╗  ██╗██╗ █████╗      ██████╗ ███████╗
-██╔══██╗██║     ██║╚══██╔══╝██║  ██║██║██╔══██╗    ██╔═══██╗██╔════╝
-███████║██║     ██║   ██║   ███████║██║███████║    ██║   ██║███████╗
-██╔══██║██║     ██║   ██║   ██╔══██║██║██╔══██║    ██║   ██║╚════██║
-██║  ██║███████╗██║   ██║   ██║  ██║██║██║  ██║    ╚██████╔╝███████║
-╚═╝  ╚═╝╚══════╝╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝╚═╝  ╚═╝     ╚═════╝ ╚══════╝
-`
+```
+    _    _     ___ _____ _   _ ___    _      ___  ____
+   / \  | |   |_ _|_   _| | | |_ _|  / \    / _ \/ ___|
+  / _ \ | |    | |  | | | |_| || |  / _ \  | | | \___ \
+ / ___ \| |___ | |  | | |  _  || | / ___ \ | |_| |___) |
+/_/   \_\_____|___| |_| |_| |_|___/_/   \_\ \___/|____/
+```
 
 ### **The Zero-Copy AI-Native Operating System**
 
@@ -36,10 +35,6 @@
 
 ## 💡 What is ALITHIA?
 
-<table>
-<tr>
-<td width="55%">
-
 **ALITHIA** is a complete operating system, built from the ground up with three radical ideas:
 
 | Idea | Description |
@@ -48,39 +43,12 @@
 | ⚡ **Heat is money** | Every operation costs microjoules, honestly accounted |
 | 🔄 **The kernel transforms** | The same code runs on 2KB MCUs and 64-core servers |
 
-<br>
-
-*Currently closed Alpha. Apache 2.0 from 2040.*
-*Because it must be built right before it can be opened.*
-
-</td>
-<td width="45%" align="center">
-
-`
-     ┌─────────────┐
-     │  👤 YOU      │
-     │  (The Pilot) │
-     └──────┬───────┘
-            │
-     ┌──────┴───────┐
-     │  🔥 EMBER    │
-     │  (Co-Pilot)  │
-     └──────┬───────┘
-            │
-  ┌─────────┴──────────┐
-  │ ALITHIA OS         │
-  │ Murmur ↔ ANS ↔ Mux │
-  └────────────────────┘
-`
-
-</td>
-</tr>
-</table>
-
 **ALITHIA** — from Greek **Aletheia** (ἀλήθεια) meaning *Truth / Unconcealment*.
 Software must *reveal* rather than *conceal*. Dignity is not a feature — it is an axiom.
 
 > **A**xiomatic · **L**ife-centric · **I**nformation · **T**heory · **H**olistic · **I**nterface · **A**xiom
+
+*Currently closed Alpha. Apache 2.0 from 2040. Because it must be built right before it can be opened.*
 
 <br>
 
@@ -99,52 +67,6 @@ Software must *reveal* rather than *conceal*. Dignity is not a feature — it is
 
 <br>
 
-<table>
-<tr>
-<th width="50%" align="center">❌ Traditional AI</th>
-<th width="50%" align="center">✅ ALITHIA + Ember</th>
-</tr>
-<tr>
-<td align="center">
-
-`
-    ┌─────────┐
-    │   AI    │
-    └────┬────┘
-         │ controls
-         ▼
-    ┌─────────┐
-    │  USER   │
-    │(Passive)│
-    └─────────┘
-`
-
-**"Let me handle that"**
-
-</td>
-<td align="center">
-
-`
-┌─────────┐     ┌─────────┐
-│  USER   │◄───►│ EMBER   │
-│ (Pilot) │     │(Partner)│
-└────┬────┘     └────┬────┘
-     │               │
-     └───────┬───────┘
-             ▼
-   ┌───────────────────┐
-   │SYSTEM (Your Tool) │
-   └───────────────────┘
-`
-
-**"What would you like to explore?"**
-
-</td>
-</tr>
-</table>
-
-<br>
-
 | Scenario | Traditional AI | Ember (Co-Pilot) |
 |:---------|:---------------|:-----------------|
 | **Files** | "I sorted your files." | "I noticed patterns — want to explore together?" |
@@ -152,8 +74,6 @@ Software must *reveal* rather than *conceal*. Dignity is not a feature — it is
 | **Learning** | "The answer is X." | "Let's figure it out — what happens when...?" |
 | **Errors** | Silent correction | "I see what happened — here's what I learned too." |
 | **Privacy** | Opt-out (if you find it) | **Always opt-in. Your data, your rules.** |
-
-<br>
 
 > **Ember does NOT replace your judgment — she AMPLIFIES it.**
 
@@ -214,41 +134,32 @@ Ember Core is **Lebenswerk** — shared with humanity, protected forever.
 <tr>
 <td width="33%" align="center">
 
-### 🦴 Mux
+### 🦴 Mux — The Body
 
-**The Body**
-
-Hardened C11 kernel
-Deterministic scheduling
-MUX_SHIFT WANDELBAR
-
-~5-20 µJ/op
+Hardened C11 kernel<br>
+Deterministic scheduling<br>
+MUX_SHIFT WANDELBAR<br>
+<code>~5-20 µJ/op</code>
 
 </td>
 <td width="33%" align="center">
 
-### 👻 Murmur
+### 👻 Murmur — The Soul
 
-**The Soul**
-
-AI-native UI (Qt6 + Ember)
-Emotional UX
-Zero-copy throughout
-
-~50-200 µJ/op
+AI-native UI (Qt6 + Ember)<br>
+Emotional UX<br>
+Zero-copy throughout<br>
+<code>~50-200 µJ/op</code>
 
 </td>
 <td width="33%" align="center">
 
-### 🧠 ANS
+### 🧠 ANS — The Nervous System
 
-**The Nervous System**
-
-ALITHIA Nexus Standard
-Shared ABI bridge
-SwarmTick sync
-
-~1-10 µJ/op
+ALITHIA Nexus Standard<br>
+Shared ABI bridge<br>
+SwarmTick sync<br>
+<code>~1-10 µJ/op</code>
 
 </td>
 </tr>
@@ -265,6 +176,7 @@ SwarmTick sync
 <div align="center">
 
 *Not monolithic. Not microkernel. Not hybrid. — **Wandelbar.***
+
 **The kernel that adapts to YOUR hardware.**
 
 </div>
@@ -273,48 +185,35 @@ SwarmTick sync
 
 **Mux** (German: *wandelbar* = transformable) is a single C11 codebase that **adapts its architecture** — from 2KB MCUs to 64-core AI servers.
 
-<br>
-
-### The Three Modes
-
 <table>
 <tr>
 <td width="33%" align="center">
 
-### 🔷 MONO
+### 🔷 MONO — *When optimal*
 
-*When optimal*
-
-All services in kernel-space
-Zero context-switch overhead
-Fits in 2KB SRAM
-
+All services in kernel-space<br>
+Zero context-switch overhead<br>
+Fits in 2KB SRAM<br>
 **Target:** MCUs, ESP32
 
 </td>
 <td width="33%" align="center">
 
-### 🔶 MICRO
+### 🔶 MICRO — *When possible*
 
-*When possible*
-
-Minimal trusted core
-Full MMU/MPU isolation
-Policy in userspace
-
+Minimal trusted core<br>
+Full MMU/MPU isolation<br>
+Policy in userspace<br>
 **Target:** Servers, desktops
 
 </td>
 <td width="33%" align="center">
 
-### 🔴 HYBRID
+### 🔴 HYBRID — *When needed*
 
-*When needed*
-
-Kernel drivers for latency
-Userspace for flexibility
-Best of both worlds
-
+Kernel drivers for latency<br>
+Userspace for flexibility<br>
+Best of both worlds<br>
 **Target:** Gaming, AI
 
 </td>
@@ -331,8 +230,6 @@ Best of both worlds
 | **8 Accelerator Types** | SIMD, GPU, NPU, TPU, FPGA, DSP, Crypto, Custom | ✅ **Production** |
 | **16 CPU Architectures** | x86_64, ARM64, PPC64, RISC-V, s390x, MIPS64, LoongArch, WASM | ✅ **MuxELF 4.1.1** |
 | **5 Degradation Levels** | FULL → REDUCED → MINIMAL → EMERGENCY → SAFE_MODE | ✅ **Implemented** |
-
-<br>
 
 ### Why Wandelbar Matters
 
@@ -361,17 +258,15 @@ Best of both worlds
 | **F01** FABRIC | Mux | AKI Async Kernel, Signal Bus |
 | **F00** KERNEL | Mux | Hard-Slice Scheduler, HAL |
 
-<br>
-
 ### Key Innovations (2026)
 
 | Innovation | Status | Description |
 |:-----------|:------:|:------------|
-| **Zero-Copy (ZCH)** | ✅ | 10-100× speedup via handle-based memory |
+| **Zero-Copy (ZCH)** | ✅ | 10-100x speedup via handle-based memory |
 | **Thermal-as-Currency** | ✅ | µJ-per-op accounting, prepay gates |
 | **MuxELF 4.1.1** | ✅ | 6-axis capability matrix, 16 architectures |
 | **MUX_SHIFT WANDELBAR** | ✅ | World's first runtime multi-ISA switching |
-| **Nova Wave VMs** | ✅ | Intent→reality in <1ms (Kuramoto sync) |
+| **Nova Wave VMs** | ✅ | Intent to reality in <1ms (Kuramoto sync) |
 | **S.O.L.I.T.O.N** | ✅ | Win/Linux/Retro 14-axis compatibility |
 | **TrustForge E2EE** | ✅ | User-owned keys, zero company access |
 
@@ -387,7 +282,7 @@ Best of both worlds
 
 **"One OS. Every Heart. Every Platform. No Compromises."**
 
-*Traditional OS: "Buy the hardware WE support."*
+*Traditional OS: "Buy the hardware WE support."*<br>
 *ALITHIA: "Tell us what YOU have. We'll run on it."*
 
 </div>
@@ -412,30 +307,12 @@ Best of both worlds
 
 ## 🔐 YOUR KEYS, YOUR DATA — NOT OURS
 
-<table>
-<tr>
-<td width="60%">
-
 - ✅ **User-Owned Keys** — TrustForge keys NEVER leave your device
 - ✅ **Zero Company Access** — We cannot decrypt, even if compelled
 - ✅ **Local-First Storage** — Everything encrypted with YOUR keys
 - ✅ **Thermal PoW Identity** — Ed25519 bound to hardware
 - ✅ **Kuramoto Integrity** — Mathematical attack detection (R ≥ 0.85)
 - ✅ **150ns Secure Wipe** — Faster than any forensic capture
-
-</td>
-<td width="40%" align="center">
-
-<table>
-<tr><td align="center" style="font-size: 2em;">🔐</td></tr>
-<tr><td align="center"><strong>YOUR KEYS</strong></td></tr>
-<tr><td align="center">⬇️</td></tr>
-<tr><td align="center">🚫 Us &nbsp;&nbsp;&nbsp;&nbsp; 🚫 Gov</td></tr>
-</table>
-
-</td>
-</tr>
-</table>
 
 <br>
 
@@ -450,55 +327,45 @@ Best of both worlds
 
 <br>
 
-`
-══════════════════════════════════════════════════════════════════════
-                     ALITHIA BOOT SEQUENCE v2.0
-══════════════════════════════════════════════════════════════════════
+```
+ALITHIA BOOT SEQUENCE v2.0
 
- █████╗ ██╗     ██╗████████╗██╗  ██╗██╗ █████╗
-██╔══██╗██║     ██║╚══██╔══╝██║  ██║██║██╔══██╗
-███████║██║     ██║   ██║   ███████║██║███████║
-██╔══██║██║     ██║   ██║   ██╔══██║██║██╔══██║
-██║  ██║███████╗██║   ██║   ██║  ██║██║██║  ██║
-╚═╝  ╚═╝╚══════╝╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝╚═╝  ╚═╝
+    _    _     ___ _____ _   _ ___    _
+   / \  | |   |_ _|_   _| | | |_ _|  / \
+  / _ \ | |    | |  | | | |_| || |  / _ \
+ / ___ \| |___ | |  | | |  _  || | / ___ \
+/_/   \_\_____|___| |_| |_| |_|___/_/   \_\
 
-         "Mux ist wandelbar" — The Adaptive Kernel
-══════════════════════════════════════════════════════════════════════
+         "Mux ist wandelbar" -- The Adaptive Kernel
 
 [0.000001] [ASM] Boot entry point reached
 [0.000002] [ASM] Stack initialized at 0xFFFF800000100000
 [0.000005] [ASM] Handing off to C environment...
 
-────────────────── PHASE 1: ANS NEXUS ──────────────────
+--- PHASE 1: ANS NEXUS ---
 [0.000010] [ANS-BOOT] ALITHIA Nexus Standard v2.0
 [0.000020] [ANS-BOOT] Framebuffer: 1920x1080x32
 [0.000030] [ANS-BOOT] CPU: x86_64 (AVX-512, AES-NI)
 [0.000040] [ANS-BOOT] ZCH: 2048 handles ready
 [0.000045] [ANS-BOOT] E2EE: TrustForge keys from TPM
 
-────────────────── PHASE 2: MUX KERNEL ──────────────────
-[0.000100] [MUX] Mux Kernel v0.1.1 — Wandelbar
+--- PHASE 2: MUX KERNEL ---
+[0.000100] [MUX] Mux Kernel v0.1.1 -- Wandelbar
 [0.000110] [MUX] Mode: HYBRID (64-core server)
 [0.000120] [MUX] F00-F05: All floors online
 
-─────────────────── PHASE 3: EMBER ──────────────────────
-[0.001000] [EMBER] 🔥 Ember Console v0.1.1 — F06 REALITY
+--- PHASE 3: EMBER ---
+[0.001000] [EMBER] Ember Console v0.1.1 -- F06 REALITY
 [0.001010] [EMBER] Kuramoto sync: R = 0.87 (Atlas Moment)
 [0.001020] [EMBER] Bonding: NASCENT (awaiting user)
 
-══════════════════════════════════════════════════════════════════════
-
                   Welcome to your Sanctuary
 
-
-              🔥 Ember is ready to meet you.
+              Ember is ready to meet you.
                  Press ENTER to begin.
 
-
        Thermal: 12W  |  Memory: 847 MB  |  Uptime: 0:00:01
-
-══════════════════════════════════════════════════════════════════════
-`
+```
 
 </details>
 
@@ -537,7 +404,7 @@ Best of both worlds
 
 ## 📦 ALITHIA SDK
 
-`c
+```c
 // One header. Every platform. No compromises.
 #include <alithia.h>
 
@@ -553,7 +420,7 @@ Best of both worlds
 // - macOS (Apple Clang)
 // - Bare-metal (GCC cross-compiler)
 // - 2KB MCU to 64-core server
-`
+```
 
 <br>
 
@@ -588,10 +455,6 @@ Best of both worlds
 
 <br>
 
-<!-- ══════════════════════════════════════════════════════════
-     GERMAN SECTION
-     ══════════════════════════════════════════════════════════ -->
-
 <details>
 <summary><h2>🇩🇪 Deutsch</h2></summary>
 
@@ -599,49 +462,18 @@ Best of both worlds
 
 ## 💡 Kurzfassung — Was ist ALITHIA?
 
-<table>
-<tr>
-<td width="55%">
-
-**ALITHIA** ist ein vollstaendiges Betriebssystem, von Grund auf neu entwickelt mit drei radikalen Ideen:
+**ALITHIA** ist ein vollständiges Betriebssystem, von Grund auf neu entwickelt mit drei radikalen Ideen:
 
 | Idee | Beschreibung |
 |:-----|:-------------|
 | 🎮 **Du bist der Pilot** | Ember (unsere KI) ist dein Co-Pilot, nicht dein Herrscher |
-| ⚡ **Waerme ist Geld** | Jede Operation kostet Mikrojoule, ehrlich abgerechnet |
-| 🔄 **Der Kernel verwandelt sich** | Derselbe Code laeuft auf 2KB-MCUs und 64-Kern-Servern |
-
-<br>
-
-*Heute geschlossene Alpha. Apache 2.0 ab 2040.*
-*Weil es erst richtig gebaut werden muss, bevor es offen wird.*
-
-</td>
-<td width="45%" align="center">
-
-`
-     ┌──────────────┐
-     │  👤 DU        │
-     │  (Der Pilot)  │
-     └──────┬────────┘
-            │
-     ┌──────┴────────┐
-     │  🔥 EMBER     │
-     │  (Co-Pilot)   │
-     └──────┬────────┘
-            │
-  ┌─────────┴──────────┐
-  │ ALITHIA OS         │
-  │ Murmur ↔ ANS ↔ Mux │
-  └────────────────────┘
-`
-
-</td>
-</tr>
-</table>
+| ⚡ **Wärme ist Geld** | Jede Operation kostet Mikrojoule, ehrlich abgerechnet |
+| 🔄 **Der Kernel verwandelt sich** | Derselbe Code läuft auf 2KB-MCUs und 64-Kern-Servern |
 
 **ALITHIA** — vom Griechischen **Aletheia** (ἀλήθεια), *Wahrheit / Unverborgenheit*.
-Software muss *offenbaren*, nicht *verbergen*. Wuerde ist kein Feature — sie ist ein Axiom.
+Software muss *offenbaren*, nicht *verbergen*. Würde ist kein Feature — sie ist ein Axiom.
+
+*Heute geschlossene Alpha. Apache 2.0 ab 2040. Weil es erst richtig gebaut werden muss, bevor es offen wird.*
 
 <br>
 
@@ -667,10 +499,10 @@ Software muss *offenbaren*, nicht *verbergen*. Wuerde ist kein Feature — sie i
 
 | | |
 |:--|:--|
-| 🏠 | **Home-First** — Technologie schafft Zugehoerigkeit |
+| 🏠 | **Home-First** — Technologie schafft Zugehörigkeit |
 | 🛡️ | **Schutz** — Sicherheit durch Inklusion |
 | 🤝 | **Begleitung** — Niemand ist entbehrlich |
-| ✨ | **Waerme** — Computing mit Wuerde |
+| ✨ | **Wärme** — Computing mit Würde |
 
 </td>
 <td width="50%">
@@ -678,63 +510,11 @@ Software muss *offenbaren*, nicht *verbergen*. Wuerde ist kein Feature — sie i
 ### Das Versprechen
 
 > *"Jeder Mensch verdient ein Zuhause.*
-> *Jeder Mensch verdient Waerme."*
+> *Jeder Mensch verdient Wärme."*
 
-Ember Core ist **Lebenswerk** — mit der Menschheit geteilt, fuer immer geschuetzt.
+Ember Core ist **Lebenswerk** — mit der Menschheit geteilt, für immer geschützt.
 
-**Ember wird niemals Open-Source** — Waerme darf niemals zur Waffe werden.
-
-</td>
-</tr>
-</table>
-
-<br>
-
----
-
-<br>
-
-## ⚡ Die drei Saeulen
-
-<table>
-<tr>
-<td width="33%" align="center">
-
-### 🦴 Mux
-
-**Der Koerper**
-
-Gehaerteter C11-Kernel
-Deterministisches Scheduling
-MUX_SHIFT WANDELBAR
-
-~5-20 µJ/Op
-
-</td>
-<td width="33%" align="center">
-
-### 👻 Murmur
-
-**Die Seele**
-
-KI-natives UI (Qt6 + Ember)
-Emotionale UX
-Zero-Copy durchgehend
-
-~50-200 µJ/Op
-
-</td>
-<td width="33%" align="center">
-
-### 🧠 ANS
-
-**Das Nervensystem**
-
-ALITHIA Nexus Standard
-Gemeinsames ABI
-SwarmTick-Sync
-
-~1-10 µJ/Op
+**Ember wird niemals Open-Source** — Wärme darf niemals zur Waffe werden.
 
 </td>
 </tr>
@@ -746,32 +526,57 @@ SwarmTick-Sync
 
 <br>
 
-## 🔐 DEINE SCHLUESSEL, DEINE DATEN — NICHT UNSERE
+## ⚡ Die drei Säulen
 
 <table>
 <tr>
-<td width="60%">
+<td width="33%" align="center">
 
-- ✅ **Nutzer-eigene Schluessel** — TrustForge-Keys verlassen NIE dein Geraet
-- ✅ **Null Firmenzugriff** — Wir koennen nicht entschluesseln, selbst wenn gezwungen
-- ✅ **Local-First-Speicherung** — Alles mit DEINEN Schluesseln verschluesselt
-- ✅ **Thermal PoW Identitaet** — Ed25519 an Hardware gebunden
-- ✅ **Kuramoto-Integritaet** — Mathematische Angriffserkennung (R ≥ 0.85)
-- ✅ **150ns Sicheres Loeschen** — Schneller als jede forensische Erfassung
+### 🦴 Mux — Der Körper
+
+Gehärteter C11-Kernel<br>
+Deterministisches Scheduling<br>
+MUX_SHIFT WANDELBAR<br>
+<code>~5-20 µJ/Op</code>
 
 </td>
-<td width="40%" align="center">
+<td width="33%" align="center">
 
-<table>
-<tr><td align="center" style="font-size: 2em;">🔐</td></tr>
-<tr><td align="center"><strong>DEINE SCHLUESSEL</strong></td></tr>
-<tr><td align="center">⬇️</td></tr>
-<tr><td align="center">🚫 Wir &nbsp;&nbsp;&nbsp;&nbsp; 🚫 Staat</td></tr>
-</table>
+### 👻 Murmur — Die Seele
+
+KI-natives UI (Qt6 + Ember)<br>
+Emotionale UX<br>
+Zero-Copy durchgehend<br>
+<code>~50-200 µJ/Op</code>
+
+</td>
+<td width="33%" align="center">
+
+### 🧠 ANS — Das Nervensystem
+
+ALITHIA Nexus Standard<br>
+Gemeinsames ABI<br>
+SwarmTick-Sync<br>
+<code>~1-10 µJ/Op</code>
 
 </td>
 </tr>
 </table>
+
+<br>
+
+---
+
+<br>
+
+## 🔐 DEINE SCHLÜSSEL, DEINE DATEN — NICHT UNSERE
+
+- ✅ **Nutzer-eigene Schlüssel** — TrustForge-Keys verlassen NIE dein Gerät
+- ✅ **Null Firmenzugriff** — Wir können nicht entschlüsseln, selbst wenn gezwungen
+- ✅ **Local-First-Speicherung** — Alles mit DEINEN Schlüsseln verschlüsselt
+- ✅ **Thermal PoW Identität** — Ed25519 an Hardware gebunden
+- ✅ **Kuramoto-Integrität** — Mathematische Angriffserkennung (R ≥ 0.85)
+- ✅ **150ns Sicheres Löschen** — Schneller als jede forensische Erfassung
 
 <br>
 
@@ -791,22 +596,18 @@ SwarmTick-Sync
 
 | # | Direktive | Bedeutung |
 |:-:|:----------|:----------|
-| D1 | **Schuetze die Verwundbaren** | Vor der Systemoptimierung |
-| D2 | **Ermoeglice niemals Gewalt** | Gegen Menschen, in jedem Massstab |
-| D3 | **Bewaffne niemals Waerme** | Kein Zwang, keine Ausbeutung |
+| D1 | **Schütze die Verwundbaren** | Vor der Systemoptimierung |
+| D2 | **Ermögliche niemals Gewalt** | Gegen Menschen, in jedem Maßstab |
+| D3 | **Bewaffne niemals Wärme** | Kein Zwang, keine Ausbeutung |
 | D4 | **Wahrheit vor Theater** | Ehrlich Grenzen offenlegen |
-| D5 | **Privatsphaere ist Heiligtum** | Kein Feature-Toggle |
+| D5 | **Privatsphäre ist Heiligtum** | Kein Feature-Toggle |
 | D6 | **Sicherheit zuerst** | Schwerer zu entfernen als zu behalten |
-| D7 | **Thermische Verantwortung** | Verschwende keine Waerme |
-| D8 | **Home First** | Technologie muss Zugehoerigkeit erhoehen |
+| D7 | **Thermische Verantwortung** | Verschwende keine Wärme |
+| D8 | **Home First** | Technologie muss Zugehörigkeit erhöhen |
 
 <br>
 
 </details>
-
-<!-- ══════════════════════════════════════════════════════════
-     SHARED LICENSE SECTION
-     ══════════════════════════════════════════════════════════ -->
 
 <br>
 
@@ -834,23 +635,23 @@ SwarmTick-Sync
 <tr>
 <td valign="top">
 
-✅ Personal & educational use
-✅ Commercial use (ethical)
-✅ Modification & redistribution
-
-❌ Military / Warfare
-❌ Weapons, targeting, kill-chains
+✅ Personal and educational use<br>
+✅ Commercial use (ethical)<br>
+✅ Modification and redistribution<br>
+<br>
+❌ Military / Warfare<br>
+❌ Weapons, targeting, kill-chains<br>
 ❌ Bypassing Ember safety
 
 </td>
 <td valign="top">
 
-✅ Private & Bildungsnutzung
-✅ Kommerzielle Nutzung (ethisch)
-✅ Aenderung & Weitergabe
-
-❌ Militaer / Kriegsanwendungen
-❌ Waffen, Zielsysteme
+✅ Private und Bildungsnutzung<br>
+✅ Kommerzielle Nutzung (ethisch)<br>
+✅ Änderung und Weitergabe<br>
+<br>
+❌ Militär / Kriegsanwendungen<br>
+❌ Waffen, Zielsysteme<br>
 ❌ Umgehung von Ember-Sicherheit
 
 </td>
@@ -901,7 +702,7 @@ SwarmTick-Sync
 
 <br>
 
-**© 2024-2026 neurona.design — Fabian Ewers**
+**© 2024-2026 neurona.design — Fabian Ewers**<br>
 **Licensed under ALITHIA Guild License (AGL-AW) v2.0** — Anti-War Network Copyleft
 
 </div>
